@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MM3';
+    src: url('chrome-extension://__MSG_@@extension_id__/mm3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Padauk';
+    src: url('chrome-extension://__MSG_@@extension_id__/Padauk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ZawGyi';
+    src: url('chrome-extension://__MSG_@@extension_id__/ZawgyiOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.__mm { font-family: 'Padauk' !important; font-size: 1.3em; }
+.__zg { font-family: 'ZawGyi' !important; font-size: 1em; }

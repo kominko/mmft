@@ -1,0 +1,22 @@
+{
+  "name": "Myanmar Font Tools",
+  "description": "Tools for writing and reading in Myanmar language",
+  "version": "0.1",
+  "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery.min.js", "mm.font.tools.js", "mm.kb.0.0.2.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["mm.context.menu.js"]
+  },
+  "web_accessible_resources": [
+    "mm.css",
+    "mm3.ttf",
+    "Padauk.ttf",
+    "ZawgyiOne.ttf"
+  ],  
+  "manifest_version": 2
+}
