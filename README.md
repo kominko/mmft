@@ -12,5 +12,7 @@ It also contains a Myanmar keyboard which user can activate via context menu.
 
 Credit
 ======
+
 Font Busters - http://userscripts.org/scripts/show/42941 (mm font detection)
+
 MM Font Tagger : http://userscripts.org/scripts/review/103745 (modified code particualarly the use of MutationObserver)
