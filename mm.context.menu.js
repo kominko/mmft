@@ -2,10 +2,10 @@ function useMM(info, tab) {
 	//chrome.tabs.sendMessage(tab.id, { what: "getClickedElement" }, function(response) { alert(response.value);} );
 	alert(JSON.stringify(info));
 	if(info.checked){
-		alert('bind');
+		//alert('bind');
 		chrome.tabs.executeScript(null, {code: '$("textarea, input:text, search").mmkb().addClass("__mm");'})
 	}else{
-		alert('unbind');
+		//alert('unbind');
 		chrome.tabs.executeScript(null, {code: '$("textarea, input:text, search").unbindMmkb().removeClass("__mm");'})
 	}
 }
