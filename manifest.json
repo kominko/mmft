@@ -9,6 +9,11 @@
       "js": ["jquery.min.js", "mm.font.tools.js", "mm.kb.0.0.2.js"]
     }
   ],
+  "icons": { 
+    "16": "mmft-16.png",
+    "48": "mmft-48.png",
+    "128": "mmft-128.png" 
+  },
   "background": {
     "scripts": ["mm.context.menu.js"]
   },
