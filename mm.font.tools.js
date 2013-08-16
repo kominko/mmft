@@ -14,7 +14,6 @@ function addHandles() {
     chrome.runtime.onMessage.addListener(function(request, sender, callBack) {
         if (request.what == "getClickedElement") {
             callBack({value: 'hi' });
-            alert('content done');
         }
     });
 }
