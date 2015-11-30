@@ -1,7 +1,4 @@
-mmft
-====
-
-Myanmar Font Tools
+#Myanmar Font Tools
 
 This is still at work in progress state.
 
@@ -10,9 +7,11 @@ This is the chrome extension to make Myanmar lanuage appear correctly for both s
 It also contains a Myanmar keyboard which user can activate via context menu.
 
 
-Credit
+##Credit
 ======
 
 Font Busters: http://userscripts.org/scripts/show/42941 (mm font detection)
 
 MM Font Tagger: http://userscripts.org/scripts/review/103745 (modified code particualarly the use of MutationObserver)
+
+Yoe-Yar-Font:https://www.facebook.com/mgmgsan
